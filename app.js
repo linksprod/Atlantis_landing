@@ -47,7 +47,6 @@ app.post('/submit-form', (req, res) => {
             console.log(error);
             return res.status(500).send('Error sending email');
         }
-        alert("Email sent successfully!");
         console.log('Email sent: ' + info.response);
         res.redirect('/');
     });
