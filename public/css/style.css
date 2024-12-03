@@ -376,7 +376,7 @@ body { background: var(--white); }
 \*-----------------------------------*/
 
 .hero {
-  background-image: url("../images/bg-img.jpg");
+  background-image: url("../images/bgimage.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
