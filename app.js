@@ -2,11 +2,9 @@ const express = require('express');
 const path = require('path');
 const nodemailer = require('nodemailer');
 const cors = require('cors');
-const compression = require('compression')
 
 require('dotenv').config();
 
-app.use(compression());
 const app = express();
 const PORT = process.env.PORT || 3000;
 
