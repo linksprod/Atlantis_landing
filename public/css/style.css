@@ -1049,6 +1049,8 @@ address {
     max-width: 580px;
     margin-inline: auto;
   }
+  
+  .container2 { max-width: 700px; margin-left: 2vw;}
 
   .btn {
     --fs-5: 16px;
@@ -1194,6 +1196,7 @@ address {
    */
 
   .container { max-width: 800px; }
+  .container2 { max-width: 750px; margin-left: 12vw;}
 
   .section-text {
     max-width: 60ch;
@@ -1341,6 +1344,7 @@ address {
 
   .container { max-width: 1050px; }
 
+  .container2 { max-width: 900px; margin-left: 13vw;}
 
 
   /**
@@ -1501,6 +1505,8 @@ address {
    */
 
   .container { max-width: 1180px; }
+  
+  .container2 { max-width: 1000px; margin-left: 16vw;}
 
   .long-card {width: 100%;}
   .long-card .card-content{width: 20%;}
