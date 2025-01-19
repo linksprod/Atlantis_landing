@@ -174,7 +174,7 @@ body { background: var(--white); }
 .h2,
 .h3 { color: var(--gunmetal); }
 
-.h2 { font-size: calc(1.5rem + 0.5vw);}
+.h2 { font-size: calc(2rem + 0.5vw);}
 
 .h3 {
   font-size: var(--fs-3);
