@@ -168,7 +168,7 @@ body { background: var(--white); }
 
 .h1 {
   color: var(--white);
-  font-size: calc(2rem + 1vw);
+  font-size: var(--fs-0);
 }
 
 .h2,
@@ -456,17 +456,17 @@ body { background: var(--white); }
  * #POPULAR
 \*-----------------------------------*/
 
-.popular { padding-block: var(--section-padding); }
+.popular { padding-block: 4rem; }
 
 .popular-list,
-.popular-list > li:not(:last-child) { margin-bottom: 30px; }
+.popular-list > li:not(:last-child) { margin-bottom: 10px; }
 
 .popular-card {
   position: relative;
   overflow: hidden;
   border-radius: var(--radius-25);
   height: 430px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   top: 30px;
 }
 
@@ -811,7 +811,7 @@ body { background: var(--white); }
  * #GALLERY
 \*-----------------------------------*/
 
-.gallery { padding-block: var(--section-padding); }
+.gallery { padding-block: 2rem; }
 
 .gallery-list {
   display: grid;
