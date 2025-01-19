@@ -168,13 +168,13 @@ body { background: var(--white); }
 
 .h1 {
   color: var(--white);
-  font-size: var(--fs-0);
+  font-size: calc(2rem + 1vw);
 }
 
 .h2,
 .h3 { color: var(--gunmetal); }
 
-.h2 { font-size: var(--fs-2); }
+.h2 { font-size: calc(1.5rem + 0.5vw);}
 
 .h3 {
   font-size: var(--fs-3);
